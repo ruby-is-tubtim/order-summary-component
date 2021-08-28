@@ -2,7 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <img src="%PUBLIC_URL%/images/illustration-hero.svg" alt="hero" height="100" width="100" />
 Order Summary
 
   You can now listen to millions of songs, audiobooks, and podcasts on any
@@ -17,8 +18,8 @@ Order Summary
   Cancel Order
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
+    Coded by <a href="https://google.com">Your Name Here</a>.
   </div>
 
 	  </div>
