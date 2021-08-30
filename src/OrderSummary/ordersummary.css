@@ -1,0 +1,4 @@
+.ordersummary {
+  display: flex;
+  flex-direction: column;
+}

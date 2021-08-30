@@ -2,20 +2,23 @@ import hero from './illustration-hero.svg';
 
 export default function OrderSummary() {
   return <>
-    <div>
+    <div className="ordersummary">
     <img src={hero} alt="hero" width="450" height="220" />
-Order Summary
+    <div>
+    Order Summary
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any
-  device anywhere you like!
+You can now listen to millions of songs, audiobooks, and podcasts on any
+device anywhere you like!
 
-  Annual Plan
-  $59.99/year
+Annual Plan
+$59.99/year
 
-  Change
+Change
 
-  Proceed to Payment
-  Cancel Order
+Proceed to Payment
+Cancel Order
+    </div>
+
 
   <div className="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
